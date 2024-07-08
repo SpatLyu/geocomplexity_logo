@@ -21,7 +21,7 @@ library(hexSticker)
 library(magick)
 
 sticker(
-  subplot = "./geocomplexity_plot.png",
+  subplot = "./geocomplexity_bgplot.png",
   s_x = .99,
   s_y = .98,
   s_width = .68,

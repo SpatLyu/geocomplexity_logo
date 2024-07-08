@@ -6,7 +6,7 @@ library(scales)
 set.seed(123456789)
 
 # Generate sample data
-n <- 270  # Number of circles
+n <- 120  # Number of circles
 data <- data.frame(
   x = runif(n, 0, 256),
   y = runif(n, 0, 256),
@@ -24,4 +24,5 @@ p <- ggplot(data, aes(x = x, y = y)) +
   coord_fixed(ratio = 1)
 
 # Save the plot
-ggsave("./geocomplexity_plot.png", plot = p, width = 256, height = 256, units = "px", dpi = 72)
+ggsave("./geocomplexity_bgplot.png", plot = p, 
+       width = 256, height = 256, units = "px", dpi = 72)
