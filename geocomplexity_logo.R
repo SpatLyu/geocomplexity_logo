@@ -12,7 +12,7 @@ sticker(
   s_height = .8,
   package = "geocomplexity",
   p_family = "ShineTypewriter",
-  p_size = 9.5,
+  p_size = 15,
   p_color = ggplot2::alpha("#8297a0",.75),#ggplot2::alpha("#3e3221",.75),
   p_x = 1.01,
   p_y = 1.05,
