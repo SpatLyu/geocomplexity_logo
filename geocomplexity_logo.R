@@ -1,3 +1,5 @@
+# setwd("../../Downloads/materials/geocomplexity_logo/")
+
 library(showtext)
 showtext_auto(enable = TRUE)
 font_add("ShineTypewriter", regular = "./ShineTypewriter-lgwzd.ttf")
@@ -29,5 +31,5 @@ sticker(
 )
 
 image_read('./geocomplexity_logo.png') |> 
-  image_resize("256x256")|> 
+  image_resize("240x278")|> 
   image_write('./geocomplexity_logo.png')
